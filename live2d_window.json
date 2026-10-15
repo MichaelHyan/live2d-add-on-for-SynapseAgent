@@ -1,0 +1,14 @@
+{
+  "width": 500,
+  "height": 600,
+  "frameless": true,
+  "transparent": true,
+  "transparent_mode": "alpha",
+  "always_on_top": true,
+  "click_through": false,
+  "pet_mode": true,
+  "chroma_key": [255, 0, 255],
+  "caption": null,
+  "motion_file": "123.motion3.json",
+  "auto_motion": true
+}

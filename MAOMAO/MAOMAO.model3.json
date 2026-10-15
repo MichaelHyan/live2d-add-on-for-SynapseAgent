@@ -1,0 +1,25 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "MAOMAO.moc3",
+		"Textures": [
+			"MAOMAO.4096/texture_00.png"
+		],
+		"Physics": "MAOMAO.physics3.json",
+		"DisplayInfo": "MAOMAO.cdi3.json",
+		"Expressions": [
+			{ "Name": "love", "File": "expressions/expression1.exp3.json" },
+			{ "Name": "sweat", "File": "expressions/liuhan.exp3.json" },
+			{ "Name": "angry", "File": "expressions/shengqiqi.exp3.json" },
+			{ "Name": "dizzy", "File": "expressions/wenxiangyan.exp3.json" },
+			{ "Name": "ear_fold", "File": "expressions/zheer.exp3.json" },
+			{ "Name": "star", "File": "expressions/star.exp3.json" },
+			{ "Name": "tongue", "File": "expressions/tongue.exp3.json" },
+			{ "Name": "blush", "File": "expressions/blush.exp3.json" }
+		]
+	},
+	"Groups": [
+		{ "Target": "Parameter", "Name": "LipSync", "Ids": [] },
+		{ "Target": "Parameter", "Name": "EyeBlink", "Ids": ["ParamEyeROpen", "ParamEyeLOpen"] }
+	]
+}

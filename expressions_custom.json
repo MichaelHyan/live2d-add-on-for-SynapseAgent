@@ -1,0 +1,102 @@
+{
+  "model": "",
+  "mappings": [
+    {
+      "name": "love",
+      "alias": "爱心",
+      "hotkey": "1",
+      "triggers": [
+        "爱你",
+        "喜欢",
+        "么么"
+      ],
+      "params": {
+        "Param11": 1
+      }
+    },
+    {
+      "name": "sweat",
+      "alias": "流汗",
+      "hotkey": "2",
+      "triggers": [
+        "流汗",
+        "热"
+      ],
+      "params": {
+        "Param13": 1
+      }
+    },
+    {
+      "name": "angry",
+      "alias": "生气气",
+      "hotkey": "3",
+      "triggers": [
+        "生气",
+        "哼",
+        "讨厌"
+      ],
+      "params": {
+        "Param10": 1
+      }
+    },
+    {
+      "name": "dizzy",
+      "alias": "蚊香",
+      "hotkey": "4",
+      "triggers": [
+        "晕",
+        "不懂"
+      ],
+      "params": {
+        "Param12": 1
+      }
+    },
+    {
+      "name": "ear_fold",
+      "alias": "折耳",
+      "hotkey": "5",
+      "triggers": [
+        "折耳"
+      ],
+      "params": {
+        "Param75": -1
+      }
+    },
+    {
+      "name": "star",
+      "alias": "星星",
+      "hotkey": "6",
+      "triggers": [
+        "星星",
+        "厉害"
+      ],
+      "params": {
+        "Param9": 1
+      }
+    },
+    {
+      "name": "tongue",
+      "alias": "舌头",
+      "hotkey": "7",
+      "triggers": [
+        "舌头",
+        "略略略"
+      ],
+      "params": {
+        "Paramshetou": 1
+      }
+    },
+    {
+      "name": "blush",
+      "alias": "脸红",
+      "hotkey": "8",
+      "triggers": [
+        "脸红",
+        "害羞"
+      ],
+      "params": {
+        "Paramtouface1": 1
+      }
+    }
+  ]
+}

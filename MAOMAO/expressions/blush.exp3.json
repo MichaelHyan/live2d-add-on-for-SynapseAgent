@@ -1,0 +1,6 @@
+{
+	"Type": "Live2D Expression",
+	"Parameters": [
+		{ "Id": "Paramtouface1", "Value": 1, "Blend": "Add" }
+	]
+}

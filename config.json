@@ -1,0 +1,23 @@
+{
+    "version": "1.8",
+    "model_path": ".\\MAOMAO\\MAOMAO.model3.json",
+    "background_path": ".\\pic\\",
+    "background": "bak0.jpg",
+    "synapse": {
+        "url": "http://127.0.0.1:56700/cnmd",
+        "timeout": 15,
+        "bot_prompt": "#bot prompt",
+        "prompt_file": "prompt.md",
+        "poll_interval": 0.5
+    },
+    "tts": {
+        "enabled": true,
+        "voice_offset": 4,
+        "output_path": "output.mp3"
+    },
+    "auto_expression": {
+        "tone_duration": 1.0,
+        "idle_trace": true
+    },
+    "ffmpeg_path": "D:\\python\\a\\ffmpeg\\bin\\ffmpeg.exe"
+}
