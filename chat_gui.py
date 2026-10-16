@@ -214,7 +214,7 @@ class ChatWindow:
     def __init__(self, title='对话', on_reply=None, manage_live2d=False):
         self.on_reply = on_reply
         self.root = None
-        self.theme = 'light'
+        self.theme = 'dark'
         self.messages = []                # [(role, row_frame, bubble_label)]
         self.root_title = title
         self.manage_live2d = manage_live2d

@@ -1,7 +1,7 @@
 {
     "version": "1.8",
-    "model_path": ".\\MAOMAO\\MAOMAO.model3.json",
-    "background_path": ".\\pic\\",
+    "model_path": "./deepseek_l2d/deepseek.model3.json",
+    "background_path": "./pic/",
     "background": "bak0.jpg",
     "synapse": {
         "url": "http://127.0.0.1:56700/cnmd",

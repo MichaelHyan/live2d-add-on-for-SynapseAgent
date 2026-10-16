@@ -1,101 +1,146 @@
 {
-  "model": "",
+  "model": "deepseek_l2d\\deepseek.model3.json",
   "mappings": [
     {
-      "name": "love",
-      "alias": "爱心",
+      "name": "happy",
+      "alias": "",
       "hotkey": "1",
       "triggers": [
-        "爱你",
+        "哈哈",
+        "嘿嘿",
+        "嘻嘻",
+        "开心",
+        "高兴",
+        "太好了",
+        "好耶",
+        "棒",
         "喜欢",
-        "么么"
+        "谢谢",
+        "不错"
       ],
       "params": {
-        "Param11": 1
+        "ParamEyeLOpen": 0.0,
+        "ParamEyeLSmile": 1.0,
+        "ParamEyeROpen": 0.0,
+        "ParamEyeRSmile": 1.0,
+        "ParamBrowRY": -1.0,
+        "ParamBrowLY": -1.0,
+        "ParamMouthForm": 1.0,
+        "ParamMouthOpenY": 0.0
       }
     },
     {
-      "name": "sweat",
-      "alias": "流汗",
+      "name": "happy2",
+      "alias": "",
       "hotkey": "2",
       "triggers": [
-        "流汗",
-        "热"
+        "哈哈哈",
+        "太棒了",
+        "超开心",
+        "激动",
+        "兴奋",
+        "绝了",
+        "yyds",
+        "awsl",
+        "爱了",
+        "好厉害",
+        "！！！"
       ],
       "params": {
-        "Param13": 1
+        "ParamEyeLOpen": 0.0,
+        "ParamEyeLSmile": 0.0,
+        "ParamEyeROpen": 0.0,
+        "ParamEyeRSmile": 0.0,
+        "ParamMouthOpenY": 1.0,
+        "ParamMouthForm": 0.0
       }
     },
     {
-      "name": "angry",
-      "alias": "生气气",
+      "name": "puzzled",
+      "alias": "",
       "hotkey": "3",
       "triggers": [
-        "生气",
-        "哼",
-        "讨厌"
+        "？",
+        "？？",
+        "疑惑",
+        "不懂",
+        "为什么",
+        "奇怪",
+        "嗯？",
+        "啥",
+        "什么鬼",
+        "迷惑",
+        "懵"
       ],
       "params": {
-        "Param10": 1
+        "ParamEyeLOpen": -0.304,
+        "ParamEyeLSmile": 0.0,
+        "ParamEyeROpen": 0.0,
+        "ParamEyeRSmile": 0.0,
+        "ParamBrowLY": -1.0,
+        "ParamBrowRY": 1.0,
+        "ParamMouthForm": -0.326,
+        "ParamMouthOpenY": 0.0
       }
     },
     {
-      "name": "dizzy",
-      "alias": "蚊香",
+      "name": "relax",
+      "alias": "",
       "hotkey": "4",
       "triggers": [
-        "晕",
-        "不懂"
+        "呼",
+        "放松",
+        "轻松",
+        "舒服",
+        "休息",
+        "慢慢来",
+        "无所谓",
+        "随意",
+        "躺平",
+        "佛系",
+        "~"
       ],
       "params": {
-        "Param12": 1
+        "Param2": 0.0,
+        "ParamEyeLSmile": 0.0,
+        "ParamEyeLOpen": 0.0,
+        "ParamEyeROpen": 0.0,
+        "ParamEyeRSmile": 0.0,
+        "ParamBrowLY": 0.0,
+        "ParamBrowRY": 0.0,
+        "ParamBrowLAngle": 0.0,
+        "ParamBrowRAngle": 0.0,
+        "ParamMouthForm": 0.0,
+        "ParamMouthOpenY": 0.0
       }
     },
     {
-      "name": "ear_fold",
-      "alias": "折耳",
+      "name": "unhappy",
+      "alias": "",
       "hotkey": "5",
       "triggers": [
-        "折耳"
+        "唉",
+        "不开心",
+        "难过",
+        "烦",
+        "难受",
+        "失望",
+        "生气",
+        "讨厌",
+        "哼",
+        "委屈",
+        "呜呜"
       ],
       "params": {
-        "Param75": -1
-      }
-    },
-    {
-      "name": "star",
-      "alias": "星星",
-      "hotkey": "6",
-      "triggers": [
-        "星星",
-        "厉害"
-      ],
-      "params": {
-        "Param9": 1
-      }
-    },
-    {
-      "name": "tongue",
-      "alias": "舌头",
-      "hotkey": "7",
-      "triggers": [
-        "舌头",
-        "略略略"
-      ],
-      "params": {
-        "Paramshetou": 1
-      }
-    },
-    {
-      "name": "blush",
-      "alias": "脸红",
-      "hotkey": "8",
-      "triggers": [
-        "脸红",
-        "害羞"
-      ],
-      "params": {
-        "Paramtouface1": 1
+        "ParamEyeLOpen": -1.0,
+        "ParamEyeLSmile": 0.0,
+        "ParamEyeROpen": -1.0,
+        "ParamEyeRSmile": 0.0,
+        "ParamMouthForm": -1.0,
+        "ParamMouthOpenY": 0.0,
+        "ParamBrowLY": -1.0,
+        "ParamBrowRY": -1.0,
+        "ParamAngleY": -30.0
       }
     }
   ]

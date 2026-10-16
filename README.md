@@ -8,7 +8,11 @@
 
 **使用live2d-py源代码，但因存在缺陷，本插件为修改版**
 
-**版权信息：默认模型来源：模之屋 【免费模型】O13**
+**模型版权信息：**
+
+**MAOMAO：模之屋 【免费模型】O13**
+
+**deepseek_l2d: [deepseek harness live2d插件](https://github.com/lrplrplrp/dsh-live2d)**
 
 > 版本 2.0 ｜ 适用平台：Windows ｜ 依赖：SynapseAgent、Python 3.12
 
