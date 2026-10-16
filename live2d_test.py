@@ -867,10 +867,19 @@ def main():
                     if idx < len(expr_ids):
                         resolve_expression(expr_ids[idx])
                 elif k == pygame.K_0:
+                    # 恢复默认状态: 停止动作, 清表情/动作, 参数复位到默认值
+                    motion_player.stop()
                     applied_params.clear()
-                    model.ResetExpression()
+                    try:
+                        model.StopAllMotions()
+                        model.ResetExpression()
+                        model.ResetPose()
+                        model.ResetParameters()
+                    except Exception:
+                        pass
                     with _status_lock:
                         _status['expression'] = None
+                        _status['motion'] = None
 
             if event.type == pygame.VIDEORESIZE:
                 pygame.display.set_mode(event.size, flags)
